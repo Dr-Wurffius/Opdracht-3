@@ -80,6 +80,7 @@ public class Student
     {
         vakkenLijst.push(v);
 
+
     }
 
 
@@ -160,4 +161,5 @@ public class Student
     {
         this.vakkenLijst = vakkenLijst;
     }
+
 }

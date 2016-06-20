@@ -61,6 +61,8 @@ public class App
         System.out.println();
         System.out.println("Het gemidddelde van de vrouwen is: ");
         System.out.println(administratie.getGemiddeldeVrouwn(netwerkA));
+        System.out.println();
+        System.out.println("totaal aantal studenten: " + administratie.totaalAantalStudenten());
 
 
 

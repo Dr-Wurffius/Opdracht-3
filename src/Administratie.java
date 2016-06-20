@@ -246,6 +246,21 @@ public class Administratie
 
     }
 
+    public int totaalAantalStudenten()
+    {
+
+        int count = 0;
+
+        Iterator<Map.Entry<String,Student>> iterator = student.entrySet().iterator();
+        while (iterator.hasNext())
+        {
+
+        }
+
+        return count;
+
+    }
+
 
     public HashMap getStudent()
     {
