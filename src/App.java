@@ -55,6 +55,12 @@ public class App
         System.out.println();
         System.out.println("De variantie van het vak " + wiskB.getModulecode() + " is:");
         System.out.println(administratie.getvakVariantie(wiskB));
+        System.out.println();
+        System.out.println("Het gemidddelde van de mannen is: ");
+        System.out.println(administratie.getGemiddeldeMan(netwerkA));
+        System.out.println();
+        System.out.println("Het gemidddelde van de vrouwen is: ");
+        System.out.println(administratie.getGemiddeldeVrouwn(netwerkA));
 
 
 
